@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date
 
-# ---------- Initialize State ----------
+# ✅ Ensure state initializes only after importing Streamlit
 if "active_section" not in st.session_state:
     st.session_state.active_section = "Child Demographics"
 
